@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    background-color: azure;
+}
+.slide{
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    background-color:darkgrey;
+    transition: 0.5s ease;
+
+}
+h1{
+    color: black;
+    font-weight: 800;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color:black;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+h2{
+    color: black;
+    font-weight: 800;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+    
+}
+h3{
+    color: black;
+    font-weight: 800;
+    text-align: left;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+
+.slide2{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    right: 0%;
+    background-color:darkgrey;
+    transition: 0.5s ease;
+}
+h4{
+    color: black;
+    font-weight: 800;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+#gif {
+    max-width: 100%;
+    max-height: 22%;
+    display: block;
+    margin: auto;
+    bottom: 10%;
+    position: fixed;
+  }
+h6{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#task-form{
+    padding: 3% 37%;
+    align-items: center;
+}
+#task-list{
+    padding: 3% 20%;
+    list-style: none;
+    align-items: center;
+}
+
+  .task-item {
+    margin-bottom: 5px;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+  .task-item button {
+    margin-left: 5px;
+  }

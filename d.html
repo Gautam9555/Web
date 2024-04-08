@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="d.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <label>
+        <div class="slide">
+            <h1>MENU</h1>
+            <ul>
+                <li><a href="#"><i class="fas fa-tv"></i>Dashboard</a></li>
+                <li><a href="profile.html"><i class="fas fa-user"></i>Profile</a></li>
+               
+                <li><a href="login.html"><i class="fas fa-cogs"></i>Logout</a></li>
+            </ul>
+            <br>
+            <br>
+            <h2>Live Weather</h2>
+            <div id="weather"></div>
+            
+            
+        </div>
+        <div class="slide2"> 
+            <h4 id="live-time"></h4>
+            <img id="gif" src="" alt="Random GIF">
+            
+        </div>
+        
+        <h6>Task Manager</h6>
+
+<form id="task-form">
+  <input type="text" id="task-input" placeholder="Add a task...">
+  <button type="submit">Add Task</button>
+</form>
+
+
+<ul id="task-list"></ul>
+
+        
+    </label>
+    <script src="script.js"></script>
+</body>
+</html>

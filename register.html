@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="r.css">
+</head>
+<body>
+    <div id="a">
+        <form onsubmit="return isValidate()" action="login.html">
+            <label>Username:</label><br>
+            
+            <input type="text" id="name" required><br>
+            
+            <label>Mobile Number:</label><br>
+            <input type="text" id="mob" required><br>
+            
+            <label>Email:</label><br>
+            <input type="email" id="ema" required><br>1
+            
+            <label>DOB:</label><br>
+            <input type="date" id="date" required><br>
+            
+            <label>Password:</label><br>
+        <input type="password" id="pass" required><br>
+
+        <button type="submit" onclick="test()">Register</button>
+        <button type="submit" onclick="rst()">Reset</button>
+        <p>Already have an account!<a href="login.html">
+            Log-in</a></p>
+    </form>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
